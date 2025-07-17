@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Yuji+Mai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="IBOMMA_CLONE.CSS">
+</head>
+<body>
+    <header class="header">
+       <div class="header_title">
+           <img class="img" src="data:image/png;base64,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" alt="">
+       </div>
+       <div class="nav">
+            <a class="links" href="">Home</a>
+            <a class="links" href="">About</a>
+            <a class="links" href="">Bug</a>
+            <input type="text" placeholder="Search...">
+            <div class="button">
+            <button class="btn">Search</button>
+            </div>
+       </div>
+    </header>
+
+
+    <section class="hero container">
+        <h1 class="hero_des ">Where Quality & Clarity Matters</h1>
+        <p class="hero_con ">Watch Telugu movies in HD,exclusively available on IBOMMA.COM Developed for smartphone, tablets, PC & TV.</p>
+    </section>
+
+    <section class="movie_sec container">
+           <div class="movie_des">
+            <a href="BAHUBALI.html">
+            <span class="bappam">bappam.tv</span>
+            <div class="movie_con">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_HyIcibDBvlcDCu0uluXD6xD_siOvOOHAwQ&s">
+                <h3 class="movie_nam">Bahubali 1</h3>
+                <p class="year">2024</p>
+            </div></a>
+
+            <a href="RRR.html">
+                <span class="bappam">bappam.tv</span>
+                <div class="movie_con">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTquOuUaYVmZ2MuIv0wnN5GnGTlyacx696f8w&s">
+                    <h3 class="movie_nam">RRR</h3>
+                    <p class="year">2024</p>
+                </div></a>
+
+                <a href="PUSHPA.html">
+                    <span class="bappam">bappam.tv</span>
+                    <div class="movie_con">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe-o3FEPfK58UU1r8OjhlZxWVJtohroM4nNA&s">
+                        <h3 class="movie_nam">Puspha</h3>
+                        <p class="year">2024</p>
+                    </div></a>
+
+                    <a href="DUKUDU.html">
+                        <span class="bappam">bappam.tv</span>
+                        <div class="movie_con">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcE4xqysAxkAWpdJuD2U6rk6bSDkFBodAjkA&s">
+                            <h3 class="movie_nam">Dhukudu</h3>
+                            <p class="year">2015</p>
+                        </div></a>
+
+                        <a href="OG.html">
+                            <span class="bappam">bappam.tv</span>
+                            <div class="movie_con">
+                                <img class="hari" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlanePqeyd3xnZVT14sEeAdEIeFbU07sv13A&s">
+                                <h3 class="movie_nam">OG</h3>
+                                <p class="year">2025</p>
+                            </div></a>
+
+
+                            <a href="VEERAMALLU.html">
+                                <span class="bappam">bappam.tv</span>
+                                <div class="movie_con">
+                                    <img class="hari" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu6MwMTyqejDFQtznxmvDMaBbJRjYU9P6cMQ&s">
+                                    <h3 class="movie_nam">Veeramallu</h3>
+                                    <p class="year">2025</p>
+                                </div></a>
+           </div>
+    </section>
+
+
+    <section class="movie_sec container">
+        <div class="movie_des2">
+         <a href="VAITHEYRU_VEERAYYA.html">
+         <span class="bappam">bappam.tv</span>
+         <div class="movie_con">
+             <img class="hari" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZYINIC5UfLgNJChBCjxt53YGdK048tfPBBA&s">
+             <h3 class="movie_nam">Valtheru Virayya</h3>
+             <p class="year">2023</p>
+         </div></a>
+
+         <a href="JAILER.html">
+             <span class="bappam">bappam.tv</span>
+             <div class="movie_con">
+                 <img class="hari" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLcxUAWF1u4jLhYi8ygMVpUz4i9CX3fpbClQ&s">
+                 <h3 class="movie_nam">Jailer</h3>
+                 <p class="year">2024</p>
+             </div></a>
+
+             <a href="BEAST.html">
+                 <span class="bappam">bappam.tv</span>
+                 <div class="movie_con">
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuPsjO0MDwXp7nSCE_AWuQrVGs128HtTg-rA&s">
+                     <h3 class="movie_nam">Beast</h3>
+                     <p class="year">2023</p>
+                 </div></a>
+
+                 <a href="KANGUVA.html">
+                     <span class="bappam">bappam.tv</span>
+                     <div class="movie_con">
+                         <img class="hari" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy5dZGGa3MCamIP2a41wFhXcZS99TjywiRuA&s">
+                         <h3 class="movie_nam">Kanguva</h3>
+                         <p class="year">2024</p>
+                     </div></a>
+
+                     <a href="ABHIMANYUDU.html">
+                         <span class="bappam">bappam.tv</span>
+                         <div class="movie_con">
+                             <img class="hari" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXRBRq_ks6g-lo1k_0O2uyQQJCNSkJXi8B7A&s">
+                             <h3 class="movie_nam">Abhimanyudu</h3>
+                             <p class="year">2018</p>
+                         </div></a>
+
+
+                         <a href="DON.html">
+                             <span class="bappam">bappam.tv</span>
+                             <div class="movie_con">
+                                 <img class="hari" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKeq-hclzQgm4YbkZ1ef7bzIjTKKzPe9oEPA&s">
+                                 <h3 class="movie_nam">Don</h3>
+                                 <p class="year">2022</p>
+                             </div></a>
+        </div>
+ </section>
+</body>
+</html>
