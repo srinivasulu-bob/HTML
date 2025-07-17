@@ -1,0 +1,162 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: rgb(27, 25, 25);
+    font-family: "Parkinsans", serif;
+}
+
+/*
+HEADER SECTION CSS
+*/
+.header{
+    border-bottom:1px gray inset;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top:5px solid yellow;
+    height: 130px;
+}
+
+.img{
+    width: 250px;
+    height: 120px;
+    margin: 0.5rem -8rem;
+    border-radius: 20px;
+}
+
+.nav{
+    border: none;
+    display: flex;
+    gap: 1rem;
+    margin-left: 8rem;
+}
+
+.links{
+    justify-content: space-around;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:rgb(246, 242, 242);
+}
+
+input{
+    border: 2px solid gray;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 300px;
+    height: 40px;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    color: white;
+
+}
+
+::placeholder{
+    font-size: 1.2rem;
+    padding: 1.8rem 1.2rem;
+    color: white;
+}
+
+.btn{
+    border: none;
+    color: gray;
+    margin:-1.4em;
+    margin-top:.5em;
+    padding: .75em 1.2em;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: yellow;
+    color: black;
+}
+
+/*
+SECTION AREA CSS
+*/
+
+.hero{
+    border: none;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero_des{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+.hero_con{
+    color:white;
+    padding-top:25px;
+    font-size: 1.1rem;
+}
+
+
+/*
+MOVIE SECTION CSS
+*/
+
+.bappam{
+    background-color:yellow;
+    width:400px;
+    padding: 0.05rem 2.8rem;
+    font-weight: bold;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+}
+
+.movie_nam{
+    color: white;
+}
+.year{
+    color: yellow;
+    background-color:rgb(63, 63, 5);
+    width:50px;
+    padding: 0.05rem .4rem;
+    margin-top: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.movie_des{
+    border:none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10rem;
+    margin-bottom: 50px;
+}
+
+.hari{
+    width: 182px;
+    height: 255px;
+}
+
+.movie_des2{
+    border: 2px solid red;
+    border:none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 50px;
+}
+/*
+UTILITY SECTION CSS
+*/
+
+.container{
+    max-width: 90%;
+    margin-inline: auto;
+}
