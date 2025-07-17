@@ -1,0 +1,463 @@
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poopins",sans-serif;
+}
+
+body{
+   background-color:khaki;
+}
+
+.container{
+   border: none;
+   padding: 1.5rem 1rem;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.name{
+   font-size: 2rem;
+   font-weight: 600;
+   margin-left: 200px;
+   color:rgb(227, 97, 5);
+}
+
+.links{
+   border: none;
+   display: flex;
+   align-items: center;
+   gap:60px;
+   margin-right: 150px;
+}
+
+.a{
+   text-decoration: none;
+   font-size: 1.2rem;
+   font-weight: bold;
+   color:black;
+   background-color: azure;
+   border: none;
+   border-radius: 10px;
+   padding: 0.5rem 0.8rem;
+}
+
+nav a:hover{
+   border-bottom: 4px solid blue;
+}
+
+/*
+   SECTION AREA CSS
+*/
+
+.img_des{
+     border: 4px solid blue;
+     margin-top: 13px;
+     border-radius: 20px;
+     height: 380px;
+}
+
+.header{
+   border: none;
+   margin-top: 10rem;
+   display: flex;
+   flex-direction: row;
+   gap: 80px;
+}
+
+.h1_name{
+   font-size: 1.8rem;
+   color:brown;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 900;
+}
+
+.p_name{
+   font-size: 1.4rem;
+   font-weight: 700;
+   color: chocolate;
+   margin-top: 15px;
+}
+
+.para{
+   border: none;
+   font-size:1.1rem;
+   color:darkred;
+   margin-top:15px ;
+}
+
+.icons{
+   border: none;
+   display: flex;
+   gap: 20px;
+   align-items: center;
+   margin-top: 15px;
+}
+
+.img1{
+   width: 30px;
+   border-radius: 50%;
+   border: 3px solid black;
+}
+
+.cv{
+   background-color: orange;
+   width: 200px;
+   color: black;
+   padding: 0.5rem 1rem;
+   text-align: center;
+   margin-top: 15px;
+   border-radius: 10px;
+   font-size: large;
+   font-weight: 900;
+   cursor: pointer;
+}
+
+
+/*
+    ABOUT ME CSS
+*/
+
+
+.about{
+   border: none;
+   margin-top: 10rem;
+   text-align: center;
+   font-size: 50px;
+   font-weight: 700;
+   color: blue;
+   padding: 0.5rem 1rem;
+}
+
+.section1{
+   border: none;
+   margin-top: 4rem;
+   width: 90%;
+   margin-inline:auto;
+}
+
+.image{
+   text-align: center;
+}
+
+.one{
+   width: 400px;
+   border-radius: 50%;
+   border: 7px solid white;
+}
+
+.sec_des{
+   margin-top: 25px;
+   font-size: 1.2rem;
+   max-width: 150ch;
+   padding: 0.5rem 1rem;
+   font-weight: 550;
+   color:rgb(26, 80, 180);
+}
+
+.course{
+   border: none;
+   width: 500px;
+   padding: 0.5rem 2rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-left: 400px;
+   margin-top: 2rem;
+}
+
+.course_des{
+   border: 4px solid white;
+   width: 800px;
+   display: flex;
+   justify-content: center;
+   margin-left: 30px;
+   align-items: center;
+   padding: 0.5rem 1rem;
+   background-color: rgb(25, 24, 24);
+   border-radius: 10px;
+   color: white;
+   font-size: large;
+   font-weight: bold;
+}
+
+/*
+   MY SERVICES CSS
+*/
+
+.serv{
+   border: none;
+   margin-top: 10rem;
+   text-align: center;
+   font-size: 50px;
+   font-weight: 700;
+   color:blueviolet;
+   padding: 0.5rem 1rem;
+}
+
+/*
+   SECTION 2 AREA CSS
+*/
+
+.section2{
+   border: none;
+   margin-top: 5rem;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   width: 60%;
+   margin-inline:auto;
+   justify-content: space-around;
+   gap: 20px;
+}
+
+.web{
+   background-color: rgb(233, 99, 4);
+   border: 5px solid rgb(230, 10, 226);
+   width: 270px;
+   height: 220px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.one1{
+   margin-top: 20px;
+   margin-left: 10px;
+   font-size: 1.2rem;
+   font-weight: 600;
+}
+
+.web_des{
+   margin-top: 10px;
+   margin-left: 10px;
+   font-size: 1.9rem;
+   color: white;
+}
+
+.web_con{
+   margin-top: 10px;
+   margin-left: 10px;
+   font-size: 0.9rem;
+   font-weight: 600;
+   margin-right: 2px;
+}
+
+.read{
+   margin-top: 25px;
+   margin-left: 10px;
+   font-size: medium;
+   font-weight: 900;
+   cursor: pointer;
+}
+
+.web:hover{
+   background-color: aqua;
+   border:5px solid yellow;
+}
+
+/*
+    GET IN TOUCH CSS
+*/
+
+
+.get{
+   border: none;
+   margin-top: 10rem;
+   text-align: center;
+   font-size: 50px;
+   font-weight: 700;
+   color:cornflowerblue;
+   padding: 0.5rem 1rem;
+}
+
+.section3{
+    border: none;
+    margin-top: 6rem;
+    display: flex;
+    width: 90%;
+   margin-inline:auto;
+}
+
+.talk{
+     font-size: 2.3rem;
+     color:indigo;
+     margin-left: 15px;
+}
+
+.lorem{
+    font-size: 0.9rem;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+.img_mail{
+   width: 40px;
+   border-radius: 50%;
+   border: 5px solid orange;
+   cursor: pointer;
+}
+
+.mail{
+    margin-left: 15px;
+}
+
+.mail_des{
+   border: none;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-top: 15px;
+   margin-left: 15px;
+}
+
+.let{
+   border: none;
+}
+
+.form{
+   border: none;
+   width: 1200px;
+}
+
+.your{
+   font-size: 0.9rem;
+   margin-left: 12px;
+}
+
+input{
+   margin-top: 12px;
+   margin-bottom: 12px;
+   margin-left: 12px;
+   height: 40px;
+   width: 500px;
+   background-color: rgb(78, 77, 77);
+   border-radius: 10px;
+}
+
+input:hover{
+   border: 5px solid orangered;
+}
+
+::placeholder{
+     color: white;
+     padding-left: 20px;
+}
+
+textarea{
+   margin-top: 15px;
+   margin-left: 12px;
+   border-radius: 10px;
+   background-color: rgb(78, 77, 77);
+   padding-top: 20px;
+   font-size: 0.9rem;
+}
+
+textarea:hover{
+   border: 5px solid orange;
+}
+
+.submit{
+   margin-left: 12px;
+   margin-top: 15px;
+   background-color: aqua;
+   color: white;
+   padding: 1rem 2rem;
+   border-radius: 20px;
+   font-size: 1.4rem;
+   font-weight: bold;
+   cursor: pointer;
+   border: none;
+}
+
+.submit:hover{
+   border: 4px solid black;
+}
+
+/*
+    FOOTER SECTION AREA CSS
+*/
+
+.section4{
+   border: none;
+   display: flex;
+   width: 90%;
+   margin-inline:auto;
+   margin-top: 8rem;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.footer2{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.footer{
+   border: none;
+   width: 500px;
+}
+
+.peru{
+   margin-left: 16px;
+   color:cadetblue;
+}
+
+.footer_des{
+   margin-left: 16px;
+   margin-top: 10px;
+   font-weight: 700;
+}
+
+#rin{
+   width: 250px;
+   height: 48px;
+}
+
+.submit2{
+   width: 150px;
+   height: 50px;
+   border-radius: 25px;
+   background-color: chartreuse;
+   border: none;
+   font-size: 1.4rem;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+
+.submit2:hover{
+   border: 4px solid orange;
+}
+
+.hori{
+     height: 3px;
+     width: 91%;
+     margin-inline:auto;
+     margin-top:20px;
+     background-color: blueviolet;
+}
+
+.copy{
+   border: none;
+   margin-top:1.5rem;
+   text-align: center;
+   padding: 0.5rem 1rem;
+   font-size: 0.9rem;
+   font-weight: 800;
+   margin-bottom: 2rem;
+}
+
+
+
+/*
+      USABILITY SECTION CSS
+*/
+
+   .container1{
+      width: 50%;
+      margin-inline:auto;
+   }
