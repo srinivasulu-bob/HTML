@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+   HEAD SECTION AREA
+*/
+
+.section1{
+    border: none;
+    display: flex;
+    height: 75px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.name{
+    font-size: 2.2rem;
+    font-family: "poopins", sans-serif;
+    color:rgb(254, 9, 238);
+    font-weight: 800;
+}
+
+.nav{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.a{
+   text-decoration: none;
+   padding: 0.5rem 1rem;
+   font-size: 1.3rem;
+   color:lightseagreen;
+   font-weight: 800;
+   font-family:"poopin",sans-serif;
+}
+
+.div2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    height: 30px;
+    background-color: rgb(230, 224, 224);
+    border-radius: 25px;
+}
+
+::placeholder{
+    color: aliceblue;
+    padding-left: 15px;
+    font-size: 0.9rem;
+    color: black;
+    font-weight: 700;
+}
+
+.search{
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    background-color: rgb(27, 239, 44);
+    color: white;
+    font-weight: 800;
+    border:none;
+    cursor: pointer;
+}
+
+.sign{
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    background-color: yellow;
+    color: black;
+    font-weight: 800;
+    border:none;
+    cursor: pointer;
+}
+
+
+
+/*
+    IMAGE SECTION AREA CSS
+*/
+
+.section2{
+    border: none;
+    margin-top: 2rem;
+    width: 70%;
+    margin-inline:auto;
+}
+
+.ban{
+    width:100%;
+   height: 500px;
+   border-radius: 35px;
+}
+
+.ex{
+    border: none;
+    margin-top: 2rem;
+    width: 70%;
+    margin-inline:auto;
+}
+
+.ex_des{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color:rgb(248, 33, 33);
+    font-weight: 800;
+}
+
+.para{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color:deeppink;
+    font-weight: 700;
+}
+
+
+/*
+    SECTION 3 AREA CSS
+*/
+
+.section3{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    margin-inline:auto;
+    gap: 35px;
+    margin-top: 3rem;
+}
+
+.img_salad{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.img_name{
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(4, 4, 243);
+    margin-top: 15px;
+}
+
+.hr{
+    background-color: gray;
+    height: 4px;
+    width: 70%;
+    margin-inline:auto;
+    margin-top: 2rem;
+}
+
+.top{
+    border: none;
+    width: 70%;
+    margin-inline:auto;
+    margin-top: 2rem;
+    font-size: large;
+    font-weight: 800;
+    font-family: "poopins",sans-serif;
+    padding: 0.5rem 1rem;
+}
+
+
+/*
+    SALAD SECTION AREA CSS
+*/
+
+.salad_sec{
+    border: none;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-inline:auto;
+    gap: 27px;
+}
+
+.salad_des{
+    border: none;
+    width: 245px;
+}
+
+.sala_img{
+    width: 245px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.para_des{
+    padding: 0.7rem 0.7rem;
+}
+
+.salad_name{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.descrip{
+    margin-top: 10px;
+    font-family:serif;
+}
+
+.uses{
+    margin-top: 5px;
+    font-family:serif;
+}
+
+.rupees{
+   margin-top: 20px;
+   font-size:1.4rem;
+   font-weight: 1000;
+   color: red;
+}
+
+.section3 a{
+    text-decoration: none;
+}
+
+
+/*
+    FOOTER SECTION AREA CSS
+*/
+
+.section4{
+    border: none;
+    margin-top: 5rem;
+    background-color:rgb(87, 85, 85);
+   height: 460px;
+   padding-left:2rem;
+   padding-right: 2rem;
+   padding-top: 5rem;
+}
+
+.footer{
+    display: flex;
+    width: 70%;
+    margin-inline:auto;
+    gap: 40px;
+}
+
+
+.footer_des{
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.tomatoname{
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.description{
+    margin-top: 15px;
+    color: white;
+}
+
+.icons{
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+
+.icon1{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.company{
+     border: none;
+     padding: 0.5rem 1rem;
+}
+
+.com_name{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.li{
+    margin-top: 15px;
+    color: white;
+}
+
+
+.touch{
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.th_name{
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.na{
+    margin-top: 15px;
+    color: white;
+}
+
+
+.hr3{
+    width: 70%;
+    margin-inline:auto;
+    margin-top: 3rem;
+    height: 4px;
+    background-color: white;
+}
+
+
+.copy{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.footer_des>a{
+    text-decoration: none;
+}
+
+/*
+   USABILITY SECTION AREA
+*/
+
+.container{
+    width: 90%;
+    margin-inline:auto;
+}
